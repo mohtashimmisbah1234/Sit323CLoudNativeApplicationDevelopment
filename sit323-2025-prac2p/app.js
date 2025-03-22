@@ -9,12 +9,12 @@ let users = [
   { id: 1, name: 'John' },
   { id: 2, name: 'Jane' },
   { id: 3, name: 'Bob' },
-  { id: 4, name: 'James' } // New user added
+  { id: 4, name: 'James' } // New user hasa been added
 ];
 
-// Root route
+// This is the root route
 app.get('/', (req, res) => {
-  res.send('Welcome to the User API! Use /users to interact with the API.');
+  res.send('Hello, welcome to the User API! Use /users to interact with the API.');
 });
 
 // Get all users
