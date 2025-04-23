@@ -1,0 +1,5 @@
+node_modules
+npm-debug.log
+.DS_Store
+/*.dockerignore file tells which files or folders to exclude when building the image, it is important because it speeds up image builds, reduces image size which avoids including 
+bulky dev files, and improves the security which prevents sensitive files from being baked into the image (e.g. .env, local coonfig).*/ 

@@ -1,9 +1,9 @@
 {
-  "name": "sit323-2025-prac5p",
+  "name": "sit323-2025-prac5d",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js" 
+     "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
